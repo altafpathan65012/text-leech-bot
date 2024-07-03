@@ -252,8 +252,8 @@ async def account_login(bot: Client, m: Message):
                 )
                 continue
 
-    except Exception as e:
-        await m.reply_text(e)
+except Exception as e:
+    await m.reply_text(e)
     await m.reply_text("✅ 𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲 𝐃𝐨𝐧𝐞")
 
 print("""
